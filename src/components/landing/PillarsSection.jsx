@@ -36,10 +36,10 @@ export default function PillarsSection() {
             <div className="w-14 h-14 rounded-full border-2 border-primary/60 flex items-center justify-center mb-4">
               <p.icon className="w-6 h-6 text-primary" strokeWidth={1.5} />
             </div>
-            <h3 className="font-heading text-xs md:text-sm font-semibold tracking-[0.08em] uppercase text-white mb-2">
+            <h3 className="text-xs md:text-sm font-semibold tracking-[0.08em] uppercase text-white mb-2" style={{ fontFamily: 'Inter, ui-sans-serif, system-ui, sans-serif' }}>
               {p.title}
             </h3>
-            <p className="text-white/55 text-xs md:text-sm leading-relaxed">
+            <p className="text-white/55 text-xs md:text-sm leading-relaxed" style={{ fontFamily: 'Inter, ui-sans-serif, system-ui, sans-serif' }}>
               {p.desc}
             </p>
           </article>
