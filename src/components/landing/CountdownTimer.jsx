@@ -31,7 +31,7 @@ export default function CountdownTimer() {
 
   return (
     <section className="w-full px-6 py-12 md:py-16 flex flex-col items-center text-center">
-      <h2 className="font-heading text-primary text-xl md:text-2xl font-medium italic mb-8">
+      <h2 className="text-primary text-xl md:text-2xl font-medium italic mb-8" style={{ fontFamily: "'Montserrat', ui-sans-serif, system-ui, sans-serif" }}>
         Launching January 2027
       </h2>
       <div className="flex items-center gap-3 md:gap-5">
