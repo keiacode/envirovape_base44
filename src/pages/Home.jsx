@@ -1,5 +1,7 @@
 import React from "react";
 import HeroSection from "../components/landing/HeroSection";
+import ProblemStats from "../components/landing/ProblemStats";
+import CountdownTimer from "../components/landing/CountdownTimer";
 import PillarsSection from "../components/landing/PillarsSection";
 import NotifySection from "../components/landing/NotifySection";
 import FooterSection from "../components/landing/FooterSection";
@@ -31,6 +33,8 @@ export default function Home() {
 
       <main className="relative z-10 flex flex-col items-center w-full max-w-screen-lg mx-auto">
         <HeroSection />
+        <ProblemStats />
+        <CountdownTimer />
         <PillarsSection />
         <NotifySection />
         <FooterSection />
