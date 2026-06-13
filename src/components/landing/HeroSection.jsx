@@ -1,25 +1,19 @@
 import React from "react";
 
-const LOGO_IMG = "https://media.base44.com/images/public/6a2d1ecc39e663d69dfc1da1/8feed28d4_generated_2a0fd88f.png";
+const LOGO_IMG = "https://media.base44.com/images/public/6a2d1ecc39e663d69dfc1da1/ec272310d_image.png";
 const LEAVES_IMG = "https://media.base44.com/images/public/6a2d1ecc39e663d69dfc1da1/41ee1ce5a_generated_d142f848.png";
 
 export default function HeroSection() {
   return (
     <section className="relative w-full flex flex-col items-center text-center px-6 pt-10 pb-0 overflow-hidden">
-      {/* Logo */}
-      <div className="w-56 md:w-72 mb-6">
+      {/* Logo with tagline */}
+      <div className="w-72 md:w-96 mb-6">
         <img
           src={LOGO_IMG}
           alt="EnviroVape logo"
           className="w-full h-auto object-contain"
         />
       </div>
-
-      {/* Tagline */}
-      <p className="font-heading text-sm md:text-base tracking-[0.15em] uppercase text-white/80 mb-8">
-        Cleaner Planet.{" "}
-        <span className="text-primary font-semibold italic">Smarter Future.</span>
-      </p>
 
       {/* Coming Soon */}
       <h1 className="font-display font-bold tracking-[0.12em] uppercase leading-none mb-6">
