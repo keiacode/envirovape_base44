@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/landing/HeroSection";
 import PillarsSection from "../components/landing/PillarsSection";
 import NotifySection from "../components/landing/NotifySection";
+import ImpactCounter from "../components/landing/ImpactCounter";
 import FooterSection from "../components/landing/FooterSection";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
       <main className="relative z-10 flex flex-col items-center w-full max-w-screen-lg mx-auto">
         <HeroSection />
         <PillarsSection />
+        <ImpactCounter />
         <NotifySection />
         <FooterSection />
       </main>
